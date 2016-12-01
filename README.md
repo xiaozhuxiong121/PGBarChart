@@ -5,11 +5,11 @@
 
 * 可以换的的效果图
 
-![](https://cl.ly/0S272B17113J/Untitled.gif)  
+![Untitled.gif](http://upload-images.jianshu.io/upload_images/1340308-caabb9565ec0c273.gif?imageMogr2/auto-orient/strip)
 
 * 不可以滑动的效果图
 
-![](https://cl.ly/1V2w3C03392I/Untitled2.gif)
+![Untitled2.gif](http://upload-images.jianshu.io/upload_images/1340308-125ff7701f98837f.gif?imageMogr2/auto-orient/strip)
 
 # Installation with CocoaPods
 ``` 
