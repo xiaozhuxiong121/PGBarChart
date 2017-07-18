@@ -3,7 +3,7 @@
 //
 //  Created by piggybear on 2016/11/29.
 //  Copyright © 2016年 piggybear. All rights reserved.
-//
+// GitHub Address: https://github.com/xiaozhuxiong121/PGBarChart
 
 #import "PGBarChart.h"
 
@@ -269,6 +269,9 @@
     CGFloat gap = (self.frame.size.width - verticalLinePoX - totalCount * self.barWidth) / (totalCount + 1);
     CGFloat maxHeight = [self dataModelsMaxHeight];
     UIView *bottomLine = [[UIView alloc] initWithFrame:CGRectMake(verticalLinePoX, self.frame.size.height - maxHeight - VerticalLineGap, self.frame.size.width, self.bottomLineHeight)];
+    
+    //   UIView *bottomLine = [[UIView alloc] initWithFrame:CGRectMake(verticalLinePoX + gap, self.frame.size.height - maxHeight - VerticalLineGap, gap*(totalCount - 1) + self.barWidth * totalCount, self.bottomLineHeight)];
+    
     bottomLine.backgroundColor = self.bottomLineColor;
     [self addSubview:bottomLine];
     self.bottomLine = bottomLine;

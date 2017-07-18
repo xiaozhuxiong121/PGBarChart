@@ -3,7 +3,7 @@
 //
 //  Created by piggybear on 2016/11/29.
 //  Copyright © 2016年 piggybear. All rights reserved.
-//
+// GitHub Address: https://github.com/xiaozhuxiong121/PGBarChart
 
 #import <UIKit/UIKit.h>
 #import "PGBar.h"
@@ -87,8 +87,8 @@
  */
 @property (nonatomic, assign) NSUInteger verticalFontSize;
 
-@property (nonatomic, strong) id <PGBarChartDataSource> dataSource;
-@property (nonatomic, strong) id <PGBarChartDelegate> delegate;
+@property (nonatomic, weak) id <PGBarChartDataSource> dataSource;
+@property (nonatomic, weak) id <PGBarChartDelegate> delegate;
 
 - (void)reloadData;
 -(void)rollBackAnimation;
