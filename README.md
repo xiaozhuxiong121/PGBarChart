@@ -25,8 +25,6 @@ PGBarChart *barChart = [[PGBarChart alloc]initWithFrame:self.view.frame];
 ```
 可以下载demo参考使用方法
 
-# Github Address
-https://github.com/xiaozhuxiong121/PGBarChart
 
 
 
